@@ -13,10 +13,10 @@ h1 {
 }
 
 .title-box {
+  display: inline-block;
   position: absolute;
   right: 0;
   top: 0;
-  display: inline-block;
   margin: 0;
   padding: 10px 20px;
   border: 1px solid black;
@@ -26,7 +26,6 @@ h1 {
 .title-box-01 {
   background-color: rgb(255, 60, 0);
   color: black;
-  
 }
 
 .title-box-02 {
@@ -35,9 +34,8 @@ h1 {
 }
 
 .title-box-03 {
- background-color: rgb(53, 30, 255);
- color: blanchedalmond;
- 
+  background-color: rgb(53, 30, 255);
+  color: blanchedalmond;
 }
 
 .text-box {
@@ -56,6 +54,7 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* Desktop View */
 @media (min-width: 992px) {
   .col-lg-4 {
     width: 32%;
@@ -64,6 +63,7 @@ h1 {
   }
 } 
 
+/* Tablet View */
 @media (max-width: 991px) and (min-width: 786px) {
   .col-md-6 {
     width: 49%;
@@ -76,6 +76,7 @@ h1 {
   }
 }  
 
+/* Mobile View */
 @media (max-width: 767px) {
   .col-sm-12 {
     width: 100%;
